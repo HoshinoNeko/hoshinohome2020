@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>About Hoshino</title>
+    <link rel="stylesheet" href="static/stylesheet/style.css">
+    <script type="application/javascript" src="static/script/script.js"></script>
+    <script>
+        fetch('https://v1.hitokoto.cn/')
+            .then(response => response.json())
+            .then(data => {
+                const hitokoto = document.getElementById('hitokoto');
+                hitokoto.innerText = data.hitokoto;
+            })
+            .catch(console.error)
+    </script>
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome/css/all.min.css" media="all" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+    <div id="header">
+        <div class="header_left">
+            <img class="avatar" src="https://secure.gravatar.com/avatar/fc9d1dddbe6db61f4ce4d0e0c62984d6?s=500&d=mm&r=g" alt="AVATAR">
+        </div>
+        <div class="header_right">
+            <div class="white-light hello">
+            <p class="big light" data-light="Hey, it's HOSHINO Maktoto~">Hey, it's HOSHINO Maktoto~</p>
+            <p class="big light" data-light="好耶，是星野~">好耶，是星野~</p>
+            </div>
+            <div class="language inline">
+                <span class="block white line-hight-2 labeltitle">Language</span>
+                <p class="box"><i class="fas fa-language"></i> 漢語 English</p>
+            </div>
+            <div class="location inline">
+                <span class="block white line-hight-2 labeltitle">Location</span>
+                <p class="box"><i class="fas fa-compass"></i> Earth</p>
+            </div>
+            <div class="education inline">
+                <span class="block white line-hight-2 labeltitle">Education</span>
+                <p class="box"><i class="fas fa-school"></i> Hidden</p>
+            </div>
+            <div class="editor inline">
+                <span class="block white line-hight-2 labeltitle">Editor</span>
+                <p class="box"><i class="fas fa-edit"></i> Jetbrians vim & Notepad++</p>
+            </div>
+            <div class="lang inline">
+                <span class="block white line-hight-2 labeltitle">Lang.</span>
+                <p class="box"><i class="fas fa-laptop-code"></i> Javascript & PHP & Go</p>
+            </div>
+            <div class="platform inline">
+                <span class="block white line-hight-2 labeltitle">Platform</span>
+                <p class="box"><i class="fas fa-desktop"></i> Desktop PC | Windows Manjaro macOS</p>
+            </div>
+            <div class="mdevice inline">
+                <span class="block white line-hight-2 labeltitle">Mobile Device</span>
+                <p class="box"><i class="fas fa-tablet-alt "></i> Unknown</p>
+            </div>
+            <div class="as inline">
+                <span class="block white line-hight-2 labeltitle">AS-Operator</span>
+                <p class="box"><i class="fas fa-network-wired"></i> Unknown</p>
+            </div>
+            <div class="broswer inline">
+                <span class="block white line-hight-2 labeltitle">Broswer</span>
+                <p class="box"><i class="fab fa-chrome"></i> Chrouium & <i class="fab fa-safari"></i> Safari</p>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="coding">
+            <p class="subtitle">Coding</p>
+            <a href="https://github.com/HoshinoNeko" target="_blank">
+                <div class="coding">
+                    <p class="box"><i class="fab fa-github"></i> Github @Hoshino</p>
+                    <p class="block black line-hight-2"></p>
+                </div>
+            </a>
+            <a href="https://gitlab.com/HoshinoNeko" target="_blank">
+                <div class="coding">
+                    <p class="box"><i class="fab fa-gitlab"></i> Gitlab @HoshinoNeko</p>
+                    <p class="block black line-hight-2"></p>
+                </div>
+            </a>
+            <a href="https://git.cheng.pet" target="_blank">
+                <div class="coding">
+                    <p class="box"><i class="fab fa-git-alt"></i> Git <a href="https://git.cheng.pet">git.cheng.pet</a></p>
+                    <s class="block black line-hight-2"></s>
+                </div>
+            </a>
+            <a href="https://codepen.io/HoshinoNeko" target="_blank">
+                <div class="coding">
+                    <p class="box"><i class="fab fa-codepen"></i> CodePen @HOSHINO Makoto</p>
+                    <s class="block black line-hight-2"></s>
+                </div>
+            </a>
+        </div>
+        <div class="social">
+            <p class="subtitle">Social</p>
+            <!--<span class="subtitle black">Media</span>-->
+            <a href="https://twitter.com/HoshinoMeow" target="_blank">
+            <div class="twitter">
+                <p class="box"><i class="fab fa-twitter"></i> Twitter @Hoshino</p>
+                <p class="block black line-hight-2">发牢骚</p>
+            </div>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+            <div class="facebook">
+                <p class="box"><i class="fab fa-facebook"></i> Facebook No FB</p>
+                <p class="block black line-hight-2">很少用</p>
+            </div>
+            </a>
+            <a href="https://www.plurk.com/" target="_blank">
+            <div class="plurk">
+                <p class="box"><i class="fas fa-drumstick-bite"></i> Plurk What's plurk</p>
+            </div>
+            </a>
+            <a href="https://catmeow.me" target="_blank">
+                <div class="blog">
+                    <p class="box"><i class="fas fa-home"></i> Blog 星野的自留地</p>
+                </div>
+            </a>
+        </div>
+        <div class="game">
+        <p class="subtitle">Game</p>
+        <div class="cnbattle">
+            <p class="box"><i class="fab fa-battle-net"></i> 战网 @诚诚#4849</p>
+        </div>
+        <a href="https://steamcommunity.com/id/HoshinoNeko" target="_blank">
+            <div class="steam">
+                <p class="box"><i class="fab fa-steam"></i> Steam @星の</p>
+                <p class="block black line-hight-2"><i class="fas fa-heart black"></i>PUBG</p>
+            </div>
+        </a>
+
+    </div>
+        <div class="media">
+            <p class="subtitle">Media</p>
+            <a href="https://open.spotify.com/user/31vyuxvxavqhoijsthsngfhfh324" target="_blank">
+            <div class="spotify">
+                <p class="box"><i class="fab fa-spotify"></i> Spotify @Hoshino</p>
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <p class="subtitle">Video</p>
+            <a href="https://www.youtube.com/channel/UCVsqilSn2QT4N_q6jIUaMkA" target="_blank">
+                <div class="youtube">
+                    <p class="box"><i class="fab fa-youtube"></i> Youtube @HOSHINO Makoto</p>
+                </div>
+            </a>
+            <a href="https://space.bilibili.com/394548233" target="_blank">
+                <div class="bilibili">
+                    <p class="box">Bilibili @HoshiMakoto</p>
+                    <p class="block black line-hight-2">Account suspended</p>
+                </div>
+            </a>
+        </div>
+        <div class="contact">
+            <p class="subtitle">Contact</p>
+            <a href="https://t.me/HoshinoNeko" target="_blank">
+                <div class="telegram">
+                    <p class="box"><i class="fab fa-telegram"></i> Telegram @星の</p>
+                    <p class="block black line-hight-2"><i class="fas fa-heart black"></i>常用!</p>
+                </div>
+            </a>
+                <div class="email">
+                    <p class="box" style="user-select: text; -webkit-user-select: text;"><a href="https://www.base64decode.org/" target="_blank" class="black"><i class="fas fa-envelope-square"></i> Email</a> aUBjaGVuZy5wZXQ=</p>
+                    <a href="https://www.base64decode.org/" target="_blank">
+                    <p class="block black line-hight-2">Base64</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="hitokoto">
+        <p class="white" style="padding: .5em .5em .5em .5em;"><i class="far fa-heart white"></i> /Hitokoto <span id="hitokoto" class="white">Loading...</span></p>
+    </div>
+    <div class="footer">
+        <p class="white" style="padding: 1em 1em 1em 0; text-align: center">Copyleft <i class="far fa-copyright white"></i><a href="https://github.com/HoshinoFork/hoshinohome2020" class="white">Hohshino</a> 2020</p>
+    </div>
+</div>
+</body>
+</html>
