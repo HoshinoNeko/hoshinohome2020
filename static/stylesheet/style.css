@@ -101,7 +101,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
     background-color: rgba(255,255,255,0.9);
-    /*background: url(https://media.doge.fun/static/img/pixel-heart.png) center;*/
+    /*background: url(/static/img/pixel-heart.png) center;*/
     padding: 1em 1em 1em 1em;
 }
 #bottom .box {
@@ -143,7 +143,7 @@ a {
     color: transparent;
     top: 0;
     left: 0;
-    background-image: url(https://media.doge.fun/static/img/bg-light.jpg);
+    background-image: url(/static/img/bg-light.jpg);
     background-size: 150%;
     background-position: center center;
     -webkit-background-clip: text;
@@ -207,7 +207,7 @@ a {
 }
 @media(prefers-color-scheme: dark) {
     body {
-        background: url(https://media.doge.fun/static/img/nat-pants.png) rgba(0, 0, 0, .7) center;
+        background: url(/static/img/nat-pants.png) rgba(0, 0, 0, .7) center;
         background-blend-mode: multiply;
     }
     .page {
